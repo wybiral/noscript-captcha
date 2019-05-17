@@ -1,0 +1,39 @@
+table {
+	padding: 0.25em;
+	border: 1px solid #999;
+	margin: 1em auto;
+}
+
+th {
+	color: #fff;
+	padding: 1em;
+	background: rgb(66, 133, 244);
+}
+
+button {
+	color: #fff;
+	padding: 0.5em 1em;
+	border: none;
+	background: rgb(66, 133, 244);
+}
+
+.c {
+	position: relative;
+	width: 120px;
+	height: 120px;
+}
+
+td > div {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+td > div:nth-child(2) {
+	display: none;
+}
